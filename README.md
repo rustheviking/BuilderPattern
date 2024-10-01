@@ -58,8 +58,8 @@ Let’s break it down simply:
 
   This class will update its display whenever the data in the subject changes.
 
-  public class Display implements Observer {
-    private String name;
+    public class Display implements Observer {
+      private String name;
 
     public Display(String name) {
         this.name = name;
